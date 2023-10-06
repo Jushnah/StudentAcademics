@@ -16,3 +16,16 @@ The Student Information System (SIS) is a Gradle project that allows you to crea
 2. **Academic Details**:
    - Add subject scores.
    - Calculate the percentage for each subject.
+
+## Usage
+To use the Student Information Management System, you can make HTTP requests to the provided endpoints. You can find the list of available endpoints in the StudentController class.
+
+**Example API endpoints:**
+
+- To create a new student record: POST /student/add
+- To fetch student details by ID: GET /student/get/{id}
+- To fetch all students details: GET /student/get
+- To update student details by ID: PUT /student/edit/{id}
+- To calculate the percentage of a student's subjects when they pass: GET /student/{id}/mark
+
+You can use tools like Postman or curl to interact with these endpoints.
